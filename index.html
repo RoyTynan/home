@@ -1,13 +1,100 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Welcome to My Site</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-    <p>This is my personal site hosted on GitHub Pages.</p>
 
-    <a href="https://github.com/RoyTynan/I2C_STM32H7OledForDaisyBoard">Oled</a>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Roy Tynan's public repos</title>
+<style>
+:root{
+--title-color: #2884b6; /* light blue */
+--max-width: 700px;
+--gap: 1rem;
+--font: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
 
-  </body>
+
+body{
+font-family: var(--font);
+margin: 2rem;
+display: flex;
+justify-content: center;
+}
+
+
+.container{
+width: 100%;
+max-width: var(--max-width);
+}
+
+
+header h1{
+color: var(--title-color);
+margin: 0 0 .5rem 0;
+font-size: 2rem;
+line-height: 1.1;
+}
+
+
+.description{
+background: #f7fbff;
+padding: 1rem;
+border-radius: 8px;
+margin-bottom: var(--gap);
+box-shadow: 0 1px 3px rgba(0,0,0,.03);
+}
+
+
+.links{
+padding: 1rem;
+border-radius: 8px;
+background: #fff;
+box-shadow: 0 1px 3px rgba(0,0,0,.04);
+}
+
+
+.links ul{
+margin: 0;
+padding-left: 1.25rem;
+}
+
+
+.links a{
+text-decoration: none;
+}
+
+
+.links a:hover{
+text-decoration: underline;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+<h1>Roy Tynan's public repos</h1>
+</header>
+
+
+<div class="description" role="region" aria-label="Page description">
+<p>This is a home page for a number of repos I've made public from October 2025. Some of these repos date back to 2020 while some have been cleaned up and created as new ones.</p>
+</div>
+<div class="description" role="region" aria-label="Page description">
+<p>I've grouped them in their general programming  languages, but some do contain more than one.</p>
+<p>All the repos here should be regarded as Proof Of Concept.</p>
+</div>
+<div class="links" role="navigation" aria-label="Useful links">
+<h2 style="margin-top:0; font-size:1rem;">Links</h2>
+<ul>
+<h2 style="margin-top:0; font-size:1rem;">Embedded C code</h2>
+<li style="margin-top:0; font-size:1rem;"><a href="https://github.com/RoyTynan/I2C_STM32H7OledForDaisyBoard" target="_blank" rel="noopener">Oled</a> This is a old repo for the Electronsmith Daisy STM32H7 audio development board</li>
+<li style="margin-top:0; font-size:1rem;"><a href="https://github.com/RoyTynan/BootloaderOct2025" target="_blank" rel="noopener">Bootloader</a> A bootloader for the STM32F4 processsor and an Electron / React Desktop app</li>
+
+</ul>
+</div>
+</div>
+</body>
 </html>
+
+
+https://github.com/RoyTynan/BootloaderOct2025
